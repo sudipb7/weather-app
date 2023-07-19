@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="glass">
+        <div class="search">
+          <input type="text" class="search-bar" placeholder="Search" />
+          <button class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="weather loading">
+          <h2 class="city">Weather in Mumbai</h2>
+          <h1 class="temp">30°C</h1>
+
+          <div class="box">
+            <img
+              src="https://openweathermap.org/img/wn/04n.png"
+              alt=""
+              class="icon"
+            />
+            <div class="description">Mist</div>
+          </div>
+
+          <div class="humidity">Humidity: 10%</div>
+          <div class="wind">Wind speed: 5.0 km/h</div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/f993efaf56.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
